@@ -32,7 +32,7 @@ class Config(object):
 
     CLIENT_ID = "5be23f97-3047-419c-939e-4a2a9a2eddfe"
 
-    REDIRECT_PATH = "/authorized"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
+    REDIRECT_PATH = "authorized"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
     # You can find the proper permission names from this document
     # https://docs.microsoft.com/en-us/graph/permissions-reference
